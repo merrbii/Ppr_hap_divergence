@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# script that calculate genotype profiles in oder to make a SFS plot out of it
+# Errbii M 2024
+
 # Check if the correct number of arguments is provided
 if [ "$#" -ne 3 ]; then
   echo "Usage: $0 N INPUT OUTPUT"
