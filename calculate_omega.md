@@ -5,6 +5,7 @@
 
 ```bash
 vcftools --gzvcf /home/merrbii/Scratch/hyphy/consensus_hetgt_soft_HI/geno_AB_snp_an12_ql20_star_hetgt_dp10.gvcf.gz --recode --recode-INFO-all --keep samples.DEJA.txt --max-missing 0.9 --out samples.DEJA.miss0.9
+```
 The vcftools command filters variants to include only those present in samples from Japan and Germany with a maximum missing data threshold of 10%. The file samples.DEJA.txt contains samples from Japan and Germany.
 
 ## Step 2: Identify Fixed Alleles
