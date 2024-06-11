@@ -2,6 +2,8 @@
 
 # script that calculate genotype profiles in oder to make a SFS plot out of it
 # Errbii M 2024
+# This script is inspired by Pop-Con: a tool to visualize genotype profiles on Site Frequency Spectrum from populational genomics data
+# originally written by Yoann Anselmetti
 
 # Check if the correct number of arguments is provided
 if [ "$#" -ne 3 ]; then
